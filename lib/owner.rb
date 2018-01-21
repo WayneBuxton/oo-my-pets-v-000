@@ -9,8 +9,7 @@ class Owner
   end
 
   def self.all
-    @owner = Owner.new
-    @@all << @owner
+    
   end
 
 end
