@@ -10,7 +10,7 @@ class Owner
   end
 
   def self.all
-    @@all.uniq.count
+    @@all.count
     #binding.pry
   end
 
