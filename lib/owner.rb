@@ -2,7 +2,7 @@ require "pry"
 class Owner
 
   attr_accessor :name, :pets
-   
+
   @@all = []
 
   def initialize(owner)
@@ -36,7 +36,7 @@ class Owner
   end
 
   def buy_fish(name)
-    @owner.pets[:fishes]
+    self.pets[:fishes]
     #binding.pry
   end
 
