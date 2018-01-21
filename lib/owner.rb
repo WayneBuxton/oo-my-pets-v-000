@@ -2,6 +2,7 @@ require "pry"
 class Owner
 
   attr_accessor :owner
+  
   @@all = []
 
   def initialize(owner)
@@ -26,7 +27,7 @@ class Owner
   end
 
   def say_species
-    
+
   end
 
 end
