@@ -1,7 +1,7 @@
 require "pry"
 class Owner
 
-  def initialize(person)
+  def initialize(owner)
     @person = person
 
   end
