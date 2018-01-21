@@ -20,4 +20,7 @@ class Owner
     @@all.count
   end
 
+  def species
+  end
+
 end
