@@ -5,12 +5,12 @@ class Owner
 
   def initialize(owner)
     @owner = owner
-    @@all
+    @@all << 
     #binding.pry
   end
 
   def self.all
-    @@all 
+    @@all
   end
 
 end
