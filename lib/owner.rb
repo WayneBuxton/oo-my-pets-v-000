@@ -1,7 +1,7 @@
 require "pry"
 class Owner
 
-  
+
 
   @@all = []
 
