@@ -1,7 +1,7 @@
 class Owner
 
-  def self.all(owner)
-
+  def self.all(person)
+    
   end
 
 end
