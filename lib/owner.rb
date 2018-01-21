@@ -1,4 +1,5 @@
 class Owner
 
-  attr_accessor :all
-end
+
+  def self.all
+  end
