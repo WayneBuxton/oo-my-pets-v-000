@@ -49,7 +49,7 @@ class Owner
   end
 
   def walk_dogs
-    self.pets[:dogs]= "happy".split("")
+    self.pets[:dogs]= "happy"
     #binding.pry
   end
 
