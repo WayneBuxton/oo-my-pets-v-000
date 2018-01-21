@@ -6,12 +6,10 @@ class Owner
   def initialize(owner)
     @owner = owner
     @@all << self
-    #binding.pry
   end
 
   def self.all
     @@all
-    #binding.pry
   end
 
   def self.reset_all
@@ -20,7 +18,6 @@ class Owner
 
   def self.count
     @@all.count
-    #binding.pry
   end
 
 end
