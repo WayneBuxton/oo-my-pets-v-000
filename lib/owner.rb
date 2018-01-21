@@ -11,7 +11,7 @@ class Owner
 
   def self.all
     @@all.count
-    
+
   end
 
 end
