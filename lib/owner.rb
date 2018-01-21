@@ -10,6 +10,7 @@ class Owner
 
   def self.all
     @owner = Owner.new
+    @@all << @owner
   end
 
 end
