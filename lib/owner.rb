@@ -2,7 +2,7 @@ require "pry"
 class Owner
 
   def self.all(owner)
-    binding.pry
+    self.all
   end
 
 end
