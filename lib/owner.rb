@@ -50,7 +50,7 @@ class Owner
 
   def walk_dogs
     self
-    pry
+    binding.pry
   end
 
 end
