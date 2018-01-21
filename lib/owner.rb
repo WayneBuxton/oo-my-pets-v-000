@@ -36,7 +36,7 @@ class Owner
   end
 
   def buy_fish(name)
-    self.pets[:fishes]
+    self.pets[:fishes].count
     #binding.pry
   end
 
