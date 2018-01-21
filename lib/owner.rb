@@ -49,7 +49,7 @@ class Owner
   end
 
   def walk_dogs
-    self.pets[:dogs]each  do |value|
+    self.pets[:dogs]each do |value|
       #binding.pry
     end
 
