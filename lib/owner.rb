@@ -10,7 +10,7 @@ class Owner
   end
 
   def self.all
-    @@all << owner
+    @@all << @owner
   end
 
 end
