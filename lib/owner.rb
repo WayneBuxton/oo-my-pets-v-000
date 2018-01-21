@@ -1,6 +1,6 @@
 class Owner
 
-  def self.all(human)
+  def self.all(owner)
 
   end
 
