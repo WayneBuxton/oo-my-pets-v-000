@@ -19,7 +19,7 @@ class Owner
   end
 
   def self.count
-    @@all.count
+    @@all.uniq
     #binding.pry
   end
 
