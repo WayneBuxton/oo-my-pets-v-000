@@ -1,7 +1,7 @@
 require "pry"
 class Owner
 
-  def self.all(owner)
+  def self.all
     self.all
   end
 
