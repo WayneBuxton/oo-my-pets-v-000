@@ -49,7 +49,8 @@ class Owner
   end
 
   def walk_dogs
-    
+    self
+    pry
   end
 
 end
