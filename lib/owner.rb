@@ -1,7 +1,7 @@
 require "pry"
 class Owner
 
-  attr_writer :name
+  attr_accessor :name
 
   @@all = []
 
