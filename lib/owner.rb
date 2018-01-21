@@ -2,7 +2,7 @@ require "pry"
 class Owner
 
   
-  
+
   @@all = []
 
   def initialize(owner)
@@ -27,7 +27,7 @@ class Owner
   end
 
   def say_species
-
+    @owner
   end
 
 end
