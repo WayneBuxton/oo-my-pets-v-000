@@ -36,7 +36,7 @@ class Owner
 
   def buy_fish(name)
 
-    binding.pry
+    #binding.pry
   end
 
 end
