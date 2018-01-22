@@ -80,7 +80,7 @@ class Owner
     self.buy_fish(name)
     self.buy_cat(name)
     self.buy_dog(name)
-    pry
+    binding.pry
   end
 
 end
