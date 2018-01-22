@@ -74,7 +74,7 @@ class Owner
     pets[:cats].clear
     pets[:fishes].clear
     pets
-    binding.pry
+    #binding.pry
   end
 
   def list_pets
