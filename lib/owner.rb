@@ -68,7 +68,7 @@ class Owner
 
   def sell_pets
     self.pets.each do |type, pets|
-      
+      pets.mood = 
       #binding.pry
     end
 
