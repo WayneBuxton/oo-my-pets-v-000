@@ -71,7 +71,7 @@ class Owner
     pets[:cats].each { |c| c.mood = "nervous"}
     pets[:fishes].each { |f| f.mood = "nervous"}
     pets
-    binding.pry
+    #binding.pry
   end
 
   def list_pets
