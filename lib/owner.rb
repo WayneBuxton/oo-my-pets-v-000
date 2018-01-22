@@ -72,7 +72,7 @@ class Owner
     pets[:fishes].each { |f| f.mood = "nervous"}
     pets[:dogs].clear
     pets[:cats].clear
-    pets = {fishes: []}
+    pets[:fishes].clear
     #binding.pry
   end
 
